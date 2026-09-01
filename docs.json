@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "theme": "almond",
+  "name": "BMO Card Activation Guide",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0886ca",
+    "light": "#0886ca",
+    "dark": "#0066a1"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://media.brand.dev/0637e4fe-3968-44e5-ad86-e954dff087e5.png",
   "navigation": {
     "pages": [
       {
@@ -18,55 +18,87 @@
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
+    "groups": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "group": "Get Started",
+        "icon": "credit-card",
+        "pages": [
+          "index",
+          "activate-bmo-card",
+          "bmo-com-activate"
+        ]
+      },
+      {
+        "group": "Credit Card Activation",
+        "icon": "star",
+        "pages": [
+          "activate-bmo-credit-card",
+          "bmo-credit-card-activation-online",
+          "bmo-new-card-activation"
+        ]
+      },
+      {
+        "group": "Debit Card Activation",
+        "icon": "bank",
+        "pages": [
+          "activate-bmo-debit-card",
+          "bmo-debit-card-activation-online",
+          "activate-bmo-new-debit-card"
+        ]
+      },
+      {
+        "group": "How-To Guides",
+        "icon": "book-open",
+        "pages": [
+          "how-to-activate-bmo-card",
+          "how-to-activate-bmo-credit-card-online",
+          "steps-to-activate-bmo-card",
+          "bmo-card-activation-process"
+        ]
+      },
+      {
+        "group": "Activation Methods",
+        "icon": "mobile",
+        "pages": [
+          "bmo-mobile-app-card-activation",
+          "bmo-online-banking-activate-card",
+          "bmo-activate-card-by-phone"
+        ]
+      },
+      {
+        "group": "Troubleshooting",
+        "icon": "wrench",
+        "pages": [
+          "bmo-card-activation-failed",
+          "bmo-card-not-activated",
+          "bmo-customer-service-card-activation"
+        ]
+      },
+      {
+        "group": "FAQ",
+        "icon": "circle-question",
+        "pages": [
+          "faq"
+        ]
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
     ]
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+  "logo": {
+    "light": "https://media.brand.dev/01f10723-acd3-495d-a111-264a1c7f7973.png",
+    "dark": "https://media.brand.dev/01f10723-acd3-495d-a111-264a1c7f7973.png"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Activate Your Card",
+      "href": "https://www.bmo.com/activate"
     }
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "description": "Activating your BMO credit card is quick and secure you can complete it online at BMO.com/Activate or by phone. The process ensures your card is ready for purchases, online banking, and rewards.",
+  "seo": {
+    "indexing": "all"
   }
 }
