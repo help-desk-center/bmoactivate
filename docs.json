@@ -100,5 +100,10 @@
   "description": "Activating your BMO credit card is quick and secure you can complete it online at BMO.com/Activate or by phone. The process ensures your card is ready for purchases, online banking, and rewards.",
   "seo": {
     "indexing": "all"
+  },
+  "integrations": {
+    "ga4": {
+      "measurementId": "G-S29F9LVEYS"
+    }
   }
 }
